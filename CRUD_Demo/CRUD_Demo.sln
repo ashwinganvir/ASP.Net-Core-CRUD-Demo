@@ -3,17 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD_Demo.Web", "CRUD_Demo.Web\CRUD_Demo.Web.csproj", "{59525971-8FE0-4C68-B130-97DEFC41B80E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUD_Demo.Web", "CRUD_Demo.Web\CRUD_Demo.Web.csproj", "{59525971-8FE0-4C68-B130-97DEFC41B80E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD_Demo.Common", "CRUD_Demo.Common\CRUD_Demo.Common.csproj", "{791C4BB5-313F-4C35-B6C3-7CC9AB4481F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUD_Demo.Common", "CRUD_Demo.Common\CRUD_Demo.Common.csproj", "{791C4BB5-313F-4C35-B6C3-7CC9AB4481F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD_Demo.Business", "CRUD_Demo.Business\CRUD_Demo.Business.csproj", "{A9505FA4-E5AB-4D9C-909E-25CC37A45561}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUD_Demo.Business", "CRUD_Demo.Business\CRUD_Demo.Business.csproj", "{A9505FA4-E5AB-4D9C-909E-25CC37A45561}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD_Demo.DataAccess", "CRUD_Demo.DataAccess\CRUD_Demo.DataAccess.csproj", "{E2432445-1644-4027-A4E2-2CD31A258B92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUD_Demo.DataAccess", "CRUD_Demo.DataAccess\CRUD_Demo.DataAccess.csproj", "{E2432445-1644-4027-A4E2-2CD31A258B92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessCore", "DataAccessCore\DataAccessCore.csproj", "{BCAA6D0D-9FAE-4DFA-BB33-83B3978C9728}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD_Demo.UnitTests", "CRUD_Demo.UnitTests\CRUD_Demo.UnitTests.csproj", "{7E8949A8-6F4C-4BFE-8346-CB7FA8F0D6BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUD_Demo.UnitTests", "CRUD_Demo.UnitTests\CRUD_Demo.UnitTests.csproj", "{7E8949A8-6F4C-4BFE-8346-CB7FA8F0D6BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,10 +35,6 @@ Global
 		{E2432445-1644-4027-A4E2-2CD31A258B92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2432445-1644-4027-A4E2-2CD31A258B92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2432445-1644-4027-A4E2-2CD31A258B92}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BCAA6D0D-9FAE-4DFA-BB33-83B3978C9728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BCAA6D0D-9FAE-4DFA-BB33-83B3978C9728}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BCAA6D0D-9FAE-4DFA-BB33-83B3978C9728}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BCAA6D0D-9FAE-4DFA-BB33-83B3978C9728}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7E8949A8-6F4C-4BFE-8346-CB7FA8F0D6BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7E8949A8-6F4C-4BFE-8346-CB7FA8F0D6BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E8949A8-6F4C-4BFE-8346-CB7FA8F0D6BD}.Release|Any CPU.ActiveCfg = Release|Any CPU

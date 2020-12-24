@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="DataAccessCore" Version="1.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.1" />
@@ -14,7 +15,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CRUD_Demo.Common\CRUD_Demo.Common.csproj" />
-    <ProjectReference Include="..\DataAccessCore\DataAccessCore.csproj" />
   </ItemGroup>
 
   <ItemGroup>
